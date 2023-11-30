@@ -12,5 +12,10 @@
     </script>
 </head>
 <body>
+    <script>
+        if (navigator.userAgent.includes('wget')) {
+            document.body.innerHTML = '<h1>Cloning is not allowed. Please use a browser to access the content.</h1>';
+        }
+    </script>
 </body>
 </html>
